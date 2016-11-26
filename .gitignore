@@ -28,3 +28,17 @@ benchmarks/graphs
 
 # IDEA
 .idea
+
+# other
+data/
+github/
+test/
+data/dataCopy.dmg
+data/dataCopy.txt
+Would skip repository github/node-reverse-proxy.js
+test/data.txt
+test/data2.txt
+test/dataCopy.txt
+test/server.js
+test/server0.js
+test/server_1.js
