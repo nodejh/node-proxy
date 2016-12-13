@@ -1,3 +1,4 @@
+/* eslint-disable */
 const http = require('http');
 const url = require('url');
 const net = require('net');
@@ -62,4 +63,3 @@ http.createServer()
   .listen(port, () => {
   console.log(`Server is running at port ${port}`);
 });
-
