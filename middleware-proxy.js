@@ -1,5 +1,4 @@
 const http = require('http');
-const querystring = require('querystring');
 
 
 /**
@@ -44,7 +43,7 @@ const httpGet = (req, res) => {
 const httpRequest = (req, res) => {
   const method = req.method;
   const path = req.path;
-  const body = querystring.stringify(req.body);
+  const body = JSON.stringify(req.body);
   const options = {
     hostname: 'www.domain.com',
     path,
